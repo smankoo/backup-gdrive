@@ -6,7 +6,7 @@ $backupLocation = $oneDriveLocation + "\Backup\Google Drive"
 $targetDir = $backupLocation + "\" + $ts
 $dateRegex = "20[0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
 
-$maxBackups = 1
+$maxBackups = 3 # Maximum number of backups to keep
 
 
 if (Test-Path "$gDriveLocation" -PathType Container){
